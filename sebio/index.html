@@ -5,7 +5,7 @@
 <!--[if gt IE 8]><!--> <html class="no-js"> <!--<![endif]-->
     <head>
         <meta charset="utf-8">
-        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+        <!--[if ie]><meta content='IE=8' http-equiv='X-UA-Compatible'/><![endif]-->
         <title>SeBio - Page d'accueil</title>
         <meta name="description" content="">
         <meta name="viewport" content="width=device-width">
@@ -25,9 +25,11 @@
         <!-- Add your site or application content here -->
 
         <header>
-	        <a href="index.html" id="logo">
-	        	<img src="./images/logo.png" alt="Logo sebio" />
-	        </a>	        
+        	<h1>
+		        <a href="index.html" id="logo">
+		        	<img src="./images/logo.png" alt="Logo sebio" />
+		        </a>
+        	</h1>	        
 	        <div id="top">
 		        <span id="slogan">
 		        	Produits naturels, bio et écologiques pour toute la famille
@@ -45,6 +47,7 @@
        </header>
        
        <nav>
+       		<h2>navigation</h2>
        		<ul id="mega-menu-1">
        			<li><a class="current" href="index.html">Accueil</a></li>
        			<li>
@@ -117,11 +120,15 @@
        </nav>
         
        <section id="conteneur">
+       		<h1>Contenu</h1>
        		<section id="side">
        			<h2>Promotions</h2>
        			<article>
        				<a href="article.html">
        					<img src="./images/articles/1.png" alt="Image de l'article" />
+       					<div class="price_promotion">
+		       				21,95 €
+		       			</div> <!-- .price -->
        				</a>
        				<div class="description">
        					<a href="produit1.html">
@@ -129,19 +136,19 @@
 		       				<p>
 		       					Cette crème de texture riche active le processus naturel (…)
 		       				</p>
-		       				<div class="price_promotion">
-		       					21,95 €
-		       				</div> <!-- .price -->
        					</a>
 	       				<button class="addBasket">
 	       					Ajouter au panier
 	       				</button>
        				</div> <!-- description -->
        			</article>
+       			<div class="clear"></div>
        		</section>
        		
        		<section id="main">
+       			<h1>Articles & services</h1>
        			<section id="presentation">
+       				<h2>Services proposés</h2>
        				<div>
 	       				<article>
 	       					<img src="./images/shipping.jpg" alt="Service d'envoie" />
@@ -170,9 +177,9 @@
 	       				</article>
 	       				<article>
 	       					<img src="./images/shipping.jpg" alt="Service d'envoie" />
-	       					<p>
+	       					<h3>
 	       						Colis expédié le jour même !
-							</p>
+							</h3>
 							<ul>	
 								<li>Envoi de Lille tous les jours (France + UE)</li>
 								<li>Envoi de Bruxelles tous les jours (Benelux)</li>
@@ -190,16 +197,16 @@
 	       			<article>
 	       				<a href="article.html">
 	       					<img src="./images/articles/1.png" alt="Image de l'article" />
+	       					<div class="price">
+			       				21,95 €
+			       			</div> <!-- .price -->
 	       				</a>
 	       				<div class="description">
 	       					<a href="article.html">
-			       				<h3>Crème de Jour Raffermissante à la Grenade (Weleda)</h3>
+			       				<h3>Crème de Jour Raffermissante</h3>
 			       				<p>
 			       					Cette crème de texture riche active le processus naturel (…)
 			       				</p>
-			       				<div class="price">
-			       					21,95 €
-			       				</div> <!-- .price -->
 	       					</a>
 		       				<button class="addBasket">
 		       					Ajouter au panier
@@ -209,6 +216,9 @@
 	       			<article>
 	       				<a href="article.html">
 	       					<img src="./images/articles/2.png" alt="Image de l'article" />
+	       					<div class="price">
+			       				13,49 €
+			       			</div> <!-- .price -->
 	       				</a>
 	       				<div class="description">
 	       					<a href="article.html">
@@ -216,9 +226,6 @@
 			       				<p>
 			       					Le spray solaire IP20 Kids offre une protection solaire colorée (…)
 			       				</p>
-			       				<div class="price">
-			       					13,49 €
-			       				</div> <!-- .price -->
 	       					</a>
 		       				<button class="addBasket">
 		       					Ajouter au panier
@@ -228,6 +235,9 @@
 	       			<article>
 	   					<a href="article.html">
 	       					<img src="./images/articles/3.png" alt="Image de l'article" />
+	       					<div class="price">
+			       				18,17 €
+			       			</div> <!-- .price -->
 	   					</a>
 	       				<div class="description">
 	       					<a href="article.html">
@@ -235,9 +245,6 @@
 			       				<p>
 			       					La gamme solaire Florame a été spécialement formulée pour vous (…)
 			       				</p>
-			       				<div class="price">
-			       					18,17 €
-			       				</div> <!-- .price -->
 	       					</a>
 		       				<button class="addBasket">
 		       					Ajouter au panier
@@ -252,16 +259,16 @@
 	       			<article>
 	       				<a href="article.html">
 	       					<img src="./images/articles/1.png" alt="Image de l'article" />
+	       					<div class="price">
+			       				21,95 €
+			       			</div> <!-- .price -->
 	       				</a>
 	       				<div class="description">
 	       					<a href="article.html">
-			       				<h3>Crème de Jour Raffermissante à la Grenade (Weleda)</h3>
+			       				<h3>Crème de Jour Raffermissante</h3>
 			       				<p>
 			       					Cette crème de texture riche active le processus naturel (…)
 			       				</p>
-			       				<div class="price">
-			       					21,95 €
-			       				</div> <!-- .price -->
 	       					</a>
 		       				<button class="addBasket">
 		       					Ajouter au panier
@@ -272,6 +279,9 @@
 	       			<article>
 	   					<a href="article.html">
 	       					<img src="./images/articles/3.png" alt="Image de l'article" />
+		       				<div class="price">
+				       			18,17 €
+				       		</div> <!-- .price -->
 	   					</a>
 	       				<div class="description">
 	       					<a href="article.html">
@@ -279,9 +289,6 @@
 			       				<p>
 			       					La gamme solaire Florame a été spécialement formulée pour vous (…)
 			       				</p>
-			       				<div class="price">
-			       					18,17 €
-			       				</div> <!-- .price -->
 	       					</a>
 		       				<button class="addBasket">
 		       					Ajouter au panier
@@ -296,7 +303,7 @@
        
 		<div id="wrap">
 		
-			<div id="main" class="clearfix">
+			<div id="main2" class="clearfix">
 		
 			</div>
 		
@@ -322,11 +329,13 @@
 		</script>
 
         <!-- Google Analytics: change UA-XXXXX-X to be your site's ID. -->
+<!--
         <script>
             var _gaq=[['_setAccount','UA-XXXXX-X'],['_trackPageview']];
             (function(d,t){var g=d.createElement(t),s=d.getElementsByTagName(t)[0];
             g.src=('https:'==location.protocol?'//ssl':'//www')+'.google-analytics.com/ga.js';
             s.parentNode.insertBefore(g,s)}(document,'script'));
         </script>
+-->
     </body>
 </html>
